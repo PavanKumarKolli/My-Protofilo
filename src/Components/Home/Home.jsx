@@ -6,7 +6,7 @@ const Home = () => {
   const [designation, setDesignation] = useState('Web Developer');
   const [index, setIndex] = useState(0);
   const [loaded, setLoaded] = useState(false);
-  const titles = ['Web Developer', 'Frontend Developer'];
+  const titles = ['Web Developer', 'Frontend Developer','Graphic Designer'];
 
   useEffect(() => {
     const interval = setInterval(() => {
