@@ -15,7 +15,7 @@ const skills = [
 
 const About = () => {
   return (
-    <section id="about">
+    <div id="about">
       <h2>About Me</h2>
       <p>
         Hello, I'm <b>PAVAN KUMAR KOLLI</b>. I have a passion for building beautiful and functional web applications. With 1 year of experience as a Jr Web developer, I specialize in HTML , CSS , JS, ADOBE PHOTOSHOP. I enjoy working with REACT JS. Let's connect and build something amazing together!
@@ -28,7 +28,7 @@ const About = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

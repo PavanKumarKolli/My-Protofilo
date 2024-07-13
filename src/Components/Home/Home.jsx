@@ -34,7 +34,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section id="home" className="home-section">
+    <div id="home" className="home-section">
       <div className={`text-container ${loaded ? 'loaded' : ''}`}>
         <h1>Hello, It's Me</h1>
         <h1>PAVAN KOLLI</h1>
@@ -60,7 +60,7 @@ const Home = () => {
       <div className={`image-container ${loaded ? 'loaded' : ''}`}>
         <img src="My ps.png" alt="Your Name" />
       </div>
-    </section>
+    </div>
   );
 };
 

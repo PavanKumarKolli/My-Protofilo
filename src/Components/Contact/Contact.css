@@ -109,7 +109,7 @@
   background-color: var(--primary-color-hover);
 }
 
-footer {
+#footer {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid #ddd;

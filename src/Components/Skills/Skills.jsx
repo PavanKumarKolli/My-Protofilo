@@ -43,12 +43,12 @@ export const Skills = () => {
   };
 
   return (
-    <section id="skills">
+    <div id="skills">
       <h2>Technical Skills</h2>
       <div className="chart-container">
         <Pie data={data} />
       </div>
-    </section>
+    </div>
   );
 };
 

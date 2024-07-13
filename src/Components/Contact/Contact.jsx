@@ -29,7 +29,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <div id="contact">
       <h2>Contact Me</h2>
       <div className="contact-details">
         <div className="contact-item">
@@ -90,9 +90,9 @@ export const Contact = () => {
           <button onClick={handleAddComment}>Add Comment</button>
         </div>
       </div>
-      <footer>
+      <div id='footer'>
         <p>&copy; Mr Kolli. All rights reserved.</p>
-      </footer>
-    </section>
+      </div>
+    </div>
   );
 };
