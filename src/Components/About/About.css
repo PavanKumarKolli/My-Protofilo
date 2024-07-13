@@ -1,0 +1,48 @@
+#about {
+    padding: 2rem;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    
+  }
+  
+  .skill-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skill-logo {
+    width: 160px; /* Adjust size as needed */
+    height: 160px; /* Adjust size as needed */
+    transition: transform 0.3s;
+    border-radius: 7px;
+    /* background-color: #121212; */
+  }
+  
+  .skill-name {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
